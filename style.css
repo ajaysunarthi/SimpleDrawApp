@@ -1,0 +1,81 @@
+body {
+background:#D7D9DA;	
+}
+
+canvas {
+background: #fff;
+border:8px solid black;
+display:block;
+margin: 40px auto 10px;
+}
+
+.controls{width:600px;
+margin:0 auto;
+overflow:hidden;}
+
+ul{
+list-style:none;
+margin:0;
+float:left;
+padding: 5px 0 10px;
+text-align:center;
+width:100%;
+}
+
+.red {background:red;}
+.green{background:green;}
+.blue{background:blue;}
+
+.selected{border:5px solid #000;}
+
+ul li{
+display:inline-block;
+margin: 0 auto;
+text-align:center;
+height: 54px;
+width: 54px;
+}
+
+
+button{
+display:block;
+margin: 10px -10px -7px ;
+background:#68B25B;
+outline:none;
+font-size:16px;
+line-height:40px;
+}
+
+#revealColorSelect
+{
+border:3px solid #000;
+margin:10px auto;
+color:#fff;
+padding:5px 20px;
+width:180px;
+}
+
+#colorSelect{
+background:#fff;
+clear:both;
+width:305px;
+position:relative;
+margin:20px auto 0;
+display:none;
+padding:10px;
+}
+
+#newColor{
+width:80px;
+height:80px;
+float:left;
+margin: 10px 20px 20px 10px;
+background-color:rgb(255,255,255);
+}
+
+.slider p{vertical-align:middle;}
+
+.slider input{position: relative;
+top: 2px;}
+
+#addNewColor{width: 325px;}
